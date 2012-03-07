@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.subsites">
+
+
+   <browser:page
+      for="*"
+      name="logo-tag"
+      class=".view.SubSiteCssView"
+      attribute="logo_tag"
+      permission="zope2.View"
+    />
+
+   <browser:page
+      for="*"
+      name="subsitelogo"
+      class=".view.SubSiteCssView"
+      attribute="logo_data"
+      permission="zope2.View"
+    />
+
+
+</configure>

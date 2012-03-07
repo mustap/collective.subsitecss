@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+  <object name="collective.subsitecss" meta_type="Filesystem Directory View"
+    directory="collective.subsitecss:skins/collective.subsitecss"/>
+
+    <skin-path name="*" >
+        <layer name="collective.subsitecss" insert-after="custom"/>
+    </skin-path>
+
+</object>
